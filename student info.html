@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT INFO RENDON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b0c4de; 
+        }
+        header {
+            background-color: #5f9ea0; 
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            color: white;
+            font-size: 24px;
+        }
+        marquee {
+            font-size: 24px;
+            color: white;
+        }
+        section {
+            background: #a9a9a9; 
+            color: #000000;
+            padding: 20px;
+            width: 90%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        section ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        section ul li b {
+            color: #EE4B2B;
+        }
+        .image-container {
+            width: 100%; 
+            max-width: 400px; 
+            height: 200px;
+            text-align: center;
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #333;
+            color: #fdfefe;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        @keyframes bounce {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(10px); }
+            50% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+            100% { transform: translateX(0); }
+        }
+        marquee {
+            animation: bounce 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+       <head>
+<style>
+       h1{
+              color: black;
+       }
+</style>
+       </head>
+<body>
+
+<marquee direction="Left" behavior="alternate"><h1>STUDENT INFORMATION</h1></marquee>
+<fieldset>
+       <legend>personal information</legend>
+       <label for= "Number">USN (unique Student Number):</label><br>
+       <input type="text" id="fname" name="fname"><br>
+       <br>
+       <label for= "fname">full Name:</label><br>
+       <input type="text" id="fname" name="fname" required><br>
+       <br>
+       <label for= "Email">Email Address:</label><br>
+       <input type="Email" id="fname" name="fname"><br>
+       <br>
+       <label for= "tel">Contact Number:</label><br>
+       <input type="tel" id="contactNumber" contactNumber="tel"><br>
+       <br>
+       <label for= "Gender">GENDER:</label><br>
+       <input type="radio" id="radio" name="MALE">
+       <label for= "MALE">MALE:</label><br>
+       <input type="Radio" id="female" name="FEMALE">
+       <label for= "FEMALE">FEMALE:</label><br>
+       
+       
+</fieldset>
+<br>
+<fieldset>
+<legend>Academic Information</legend>
+<label for= "date">DATE OF BIRTH:</label><br>
+<input type="Date" id="Date" name="Date"><br>
+<br>
+<label for= "TEXT">COURSE:</label><br>
+<select id="COURSE" name="COURSE">
+<option value="--Select your Course--">--Select Your Course--</option>
+<option value="CS">Computer Science</option>
+<option value="information technology">information technology</option>
+<option value="Engineering">Engineering</option>
+<option value="Business Administration">Business Administration</option>
+</select><br>
+<br>
+
+<label for= "hobbies">hobbies:</label><br>
+<input type="Checkbox" id="Checkbox" name="Rides">
+<label for= "Rides">Rides:</label><br>
+<input type="Checkbox" id="Checkbox" name="online games">
+<label for= "online games">online games:</label><br>
+<input type="Checkbox" id="Checkbox" name="sports">
+<label for= "sports">sports:</label><br>
+</fieldset>
+<br>
+<fieldset>
+       <legend>Other Information</legend>
+       <label for= "address">Adress:</label><br>
+       <textarea rows="5" cols="40"></textarea><br>
+       <br>
+       <label for= "Upload Profile Picture">Upload Profile Picture:</label><br>
+       <input type="file" id="file" name="Browse">
+</fieldset>
+<br>
+<fieldset>
+       <legend>SUBMIT FORM</legend>
+       <input type="SUBMIT" id="SUBMIT" name="SUBMIT">
+       
+</fieldset>
+</html>
+</body>
+          
