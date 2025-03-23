@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
     
-    <title>About Me and J</title>
+    <title>studnet form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,32 +13,27 @@
             background-color: #b0c4de; 
         }
 
-        #student Form {
-
-            color: #00008b;
-            text-align:left;
-            font-size: 30px;
-            font-weight: bold;
-        }
     </style>
 
 </head>
 
 <body>
-    <section>
-       <head>
-<style>
-       h1{
-              color: black;
-       }
-</style>
 
-</head>
+    <a href="About.html">About</a> |
+    <a href="Home.html">Home</a> |
+    <a href="Contact.html">Contact</a> |
+    <a href="Help.html">Help</a>
+
+    <fieldset class="student Form">
 
         <h1 id="student Form">Student Registration Form</h1>
+
+    </fieldset>
+    
 <fieldset>
 
-    <label for= "date">DATE OF BIRTH:</label><br>
+    <Legend><label for= "date">DATE OF BIRTH:</label><br></Legend>
+
     <input type="Date" id="Date" name="Date"><br>
 
 </fieldset>
@@ -44,23 +41,21 @@
 
 <fieldset>
        <legend>personal information</legend>
-       <label for= "Number">USN (unique Student Number):</label><br>
-       <input type="text" id="fname" name="fname"><br>
+       <input type="number" id="ID" name="ID" placeholder="ID"><br>
        <br>
-       <label for= "fname">full Name:</label><br>
-       <input type="text" id="fname" name="fname" required><br>
+       <input type="text" id="lname"placeholder="LastName"><br>
        <br>
-       <label for= "Email">Email Address:</label><br>
-       <input type="Email" id="fname" name="fname"><br>
+       <input type="Email"placeholder="Email"/><br/>
        <br>
-       <label for= "tel">Contact Number:</label><br>
-       <input type="tel" id="contactNumber" contactNumber="tel"><br>
+       <input type="tel"placeholder="Contact Number"><br> 
        <br>
-       <label for= "Gender">GENDER:</label><br>
+       <fieldset> 
+       <legend>Gender</legend>
        <input type="checkbox" id="MALE" name="MALE">
        <label for= "MALE">MALE:</label><br>
        <input type="checkbox" id="female" name="FEMALE">
        <label for= "FEMALE">FEMALE:</label><br>
+    </fieldset> 
        
        
 </fieldset>
@@ -68,7 +63,6 @@
 <fieldset>
 
     <legend>Academic Information</legend>
-    <label for= "TEXT">COURSE:</label><br>
     <select id="COURSE" name="COURSE">
     <option value="--Select your Course--">--Select Your Course--</option>
     <option value="CS">Computer Science</option>
@@ -99,32 +93,29 @@
     <fieldset>
        
         <legend>Parent Information</legend>
-        <label for= "Father's Name">Father's Name:</label><br>
-        <input type="text" id="Father's Name" name="Father's Name"><br>
+        <input type="Father's Name" placeholder="Father's Name"><br>
         <br>
-        <label for= "Mother's Name">Mother's Name:</label><br>
-        <input type="text" id="Mother's Name" name="Mother's Name"><br>
+       <input type="Mother's Name" placeholder="Mother's Name"><br>
         <br>
-        <label for= "Parent's Contact Number">Parent's Contact Number:</label><br>
-        <input type="tel" id="Parent's Contact Number" name="Parent's Contact Number"><br>
+        <input type="Parent's Contact Number:"placeholder="Parent's Contact Number:"><br>
         <br>
-        <label for= "Parent's Email Address">Parent's Email Address:</label><br>
-        <input type="Email" id="Parent's Email Address" name="Parent's Email Address"><br>
+        <input type="Parent's Email Address: " placeholder="Parent's Email Address:"><br>
     
     </fieldset>
 
     
     <fieldset>
 
-            <div id="signature"></div>
-            <label for="signature">Signature:</label><br>
+            <legend>signature</legend>
+            
             <input type="text" id="signature" name="signature"><br>
 
     </fieldset>
 
-    <fieldset>
-       
-        <input type="submit"/><br/>
+    <fieldset>  
+
+        <h3><input type="submit"></h3>
+            <h3><input type="reset"></h3>
 
     </fieldset>
 
